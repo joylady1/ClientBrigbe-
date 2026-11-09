@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  --color-emerald: #123D32;
+  --color-emerald-dark: #0D2C24;
+  --color-emerald-light: #1B5445;
+  --color-emerald-surface: #EBF2EE;
+
+  --color-cream: #F7F1E5;
+  --color-cream-light: #FAF7F0;
+  --color-cream-card: #FFFFFF;
+  --color-cream-darker: #EDE3D1;
+
+  --color-gold: #D5AE70;
+  --color-gold-hover: #C49B5B;
+  --color-gold-light: #F8F1E5;
+
+  --color-charcoal: #26332D;
+  --color-charcoal-muted: #52635B;
+  --color-charcoal-light: #7B8C85;
+}
+
+body {
+  background-color: #F7F1E5;
+  color: #26332D;
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom scrollbars */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+::selection {
+  background-color: #123D32;
+  color: #D5AE70;
+}
